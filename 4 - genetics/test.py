@@ -1,6 +1,6 @@
 from itertools import permutations
 
-from genetics.specimen import Specimen
+from .specimen import Specimen
 
 population = []
 perm = list(permutations([i for i in range(1, len(Specimen.paths))]))

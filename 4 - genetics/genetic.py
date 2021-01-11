@@ -1,7 +1,7 @@
 import random
 
-from genetics.population import Population
-from genetics.specimen import Specimen
+from .population import Population
+from .specimen import Specimen
 
 mutation_probability = 0.01
 population_num = 4
